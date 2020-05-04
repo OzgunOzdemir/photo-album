@@ -6,7 +6,7 @@ import './index.css';
 const IndexPage = ({ data }) => {
   console.log(data)
   return (
-    <div className="container">
+    <div>
       <div className="photos">
         {
           data.allFile.edges.map(({ node }) => {
